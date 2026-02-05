@@ -113,9 +113,9 @@ export function HeroSection() {
           className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto"
         >
           {[
-            { value: "50+", label: "Projects Completed" },
-            { value: "5+", label: "Years Experience" },
-            { value: "$2M+", label: "Revenue Generated" },
+            { value: "5+", label: "Projects Completed" },
+            { value: "3+", label: "Years Experience" },
+            { value: "$30k+", label: "Revenue Generated" },
             { value: "100%", label: "Client Satisfaction" },
           ].map((stat, index) => (
             <div key={index} className="text-center">

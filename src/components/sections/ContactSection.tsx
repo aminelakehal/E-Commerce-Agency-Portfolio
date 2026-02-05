@@ -12,16 +12,16 @@ const contactSchema = z.object({
 });
 
 const socialLinks = [
-  { icon: MessageCircle, href: "https://wa.me/1234567890", label: "WhatsApp", color: "hover:text-green-500" },
+  { icon: MessageCircle, href: "https://wa.me/0559182735", label: "WhatsApp", color: "hover:text-green-500" },
   { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn", color: "hover:text-blue-500" },
   { icon: Github, href: "https://github.com", label: "GitHub", color: "hover:text-foreground" },
   { icon: Twitter, href: "https://twitter.com", label: "Twitter", color: "hover:text-sky-400" },
 ];
 
 const contactInfo = [
-  { icon: Mail, label: "Email", value: "hello@devshop.com" },
-  { icon: Phone, label: "Phone", value: "+1 (555) 123-4567" },
-  { icon: MapPin, label: "Location", value: "San Francisco, CA" },
+  { icon: Mail, label: "Email", value: "devshop@gmail.com" },
+  { icon: Phone, label: "Phone", value: "+213 0559182735" },
+  { icon: MapPin, label: "Location", value: "Deoura, Alge" },
 ];
 
 interface ContactSectionProps {

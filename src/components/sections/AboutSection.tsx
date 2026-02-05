@@ -41,9 +41,11 @@ export function AboutSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <span className="text-primary text-sm font-medium uppercase tracking-wider">
+            <center>
+            <span className="text-primary text-sm font-medium uppercase tracking-wider ">
               About Me
             </span>
+            </center>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4 mb-6">
               Turning Ideas Into{" "}
               <span className="gradient-text">Digital Success</span>
@@ -51,7 +53,7 @@ export function AboutSection() {
             
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Hi, I'm a passionate full-stack developer with over 5 years of experience 
+                Hi, I'm a passionate full-stack developer with over 3 years of experience 
                 specializing in e-commerce solutions. I've helped businesses of all sizes 
                 launch and scale their online presence.
               </p>
@@ -71,7 +73,7 @@ export function AboutSection() {
             <div className="grid grid-cols-3 gap-6 mt-8">
               {[
                 { value: "50+", label: "Happy Clients" },
-                { value: "5+", label: "Years Experience" },
+                { value: "3+", label: "Years Experience" },
                 { value: "12", label: "Technologies" },
               ].map((stat, index) => (
                 <div key={index} className="text-center p-4 rounded-xl glass">
